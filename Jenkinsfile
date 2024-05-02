@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'nginx:latest'
-        CONTAINER_NAME = 'exciting_hopper'
+        DOCKER_IMAGE = 'imran-html-server'
+        CONTAINER_NAME = 'imran'
         PORT_MAPPING = '4444:80'
     }
 
