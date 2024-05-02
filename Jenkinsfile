@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'melekgezer-html-server'
-        CONTAINER_NAME = 'melekgezer-container'
-        PORT_MAPPING = '80:4444'
+        DOCKER_IMAGE = 'nginx:latest'
+        CONTAINER_NAME = 'exciting_hopper'
+        PORT_MAPPING = '4444:80'
     }
 
     stages {
